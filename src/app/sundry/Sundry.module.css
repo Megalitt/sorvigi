@@ -1,0 +1,39 @@
+.sundry {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 6rem;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	font-size: 30px;
+	background: url(/sundry/9361.JPG)center center / cover no-repeat ;
+}
+.autorWrap {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  position: relative;
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.control-arrow {
+	width: 30px;
+}
+.title {
+	margin-top: 30px;
+	font-size: 50px;
+	/* cursor: pointer;
+	transform: rotate(0deg);
+	transition: all 1s; */
+}
+/* .title:hover {
+	transform: rotate(360deg);
+	transition: all 1s;
+} */

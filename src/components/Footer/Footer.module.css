@@ -1,0 +1,44 @@
+.footer {
+  height: 100px;
+  width: 100vw;
+  bottom: 0;
+  left: 0;
+  font-size: 25px;
+  background: rgba(3, 29, 29, 0.7);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	margin-top: 50px;
+}
+
+.footer a {
+	text-decoration: underline;
+	font-size: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #f3f3f9;
+	display: inline;
+	letter-spacing: 3px;
+}
+
+.footer a:active {
+	transform: scale(1.05);
+	color: aquamarine;
+}
+
+.footer p {
+	font-family: 'Times New Roman', Times, serif;
+}
+@media (hover: hover){
+	.footer a:hover {
+		transform: scale(1.05);
+		color: aquamarine;
+	}
+}
+
+@media (max-width: 500px)  {
+	.footer a {
+		font-size: 20px;
+	}
+}

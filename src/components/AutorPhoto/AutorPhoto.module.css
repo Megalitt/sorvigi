@@ -1,0 +1,130 @@
+
+/* .autorWrap {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; 
+  width: 100%;
+  position: relative;
+} */
+.blockAutor {
+  border: none;
+  position: absolute;
+  display: inline-flex;
+  padding: 15px;
+  flex-direction: column;
+  background: #c3eb85;
+  color: #fff;
+  border-radius: 15px;
+  align-items: start;
+  justify-content: center;
+  font-weight: 900;
+  word-break: normal;
+  margin: 0 10px;
+  bottom: 15px;
+  gap: 6px;
+  height: 65px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  z-index: -1;
+  transition: all 0.5s;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.blockAutor:hover {
+  z-index: 3;
+  transition: all 0.5s;
+}
+*:has(.blockAutor:hover) .autorTitle {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+.autorTitle {
+  border: none;
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 15px;
+  color: #fff;
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  z-index: 2;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.6s;
+  background: rgba(255, 255, 255, 0.192);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+}
+
+.autorTitle:hover {
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.6s;
+}
+
+
+*:has(.autorTitle:hover) .blockAutor {
+  z-index: 3;
+  transition: all 0.5s;
+}
+.autor {
+  padding: 1px 10px;
+  /* margin: 0 10px; */
+  border-radius: 8px;
+  display: inline-block;
+  width: 100%;
+  border: none;
+}
+
+.autor:hover {
+  transform: scale(1.02);
+  color: #0c08f5;
+  font-weight: 700;
+  background: #dbf0f331;
+  transform: all 0.5s;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  /* z-index: 10; */
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+  bottom: 0px;
+  left: 50%;
+  width: 100%;
+}
+@media (max-width: 650px){
+  .text {
+    left: 47%;
+    font-size: 14px;
+  }
+  .autor:hover::before {
+    bottom: 10px;
+    font-size: 14px;
+    width: 300px;
+    left: 5%;
+  }
+
+  .autorTitle,
+  .blockAutor {
+    bottom: 5px;
+    font-size: 15px;
+  }
+
+}

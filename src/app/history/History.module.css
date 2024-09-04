@@ -1,0 +1,43 @@
+
+.history {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 6rem;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	font-size: 30px;
+	background: url(/history/history.jpg)right center / cover no-repeat ;
+}
+.text {
+	padding: 30px;
+	font-size: 36px;
+	letter-spacing: 3px;
+	background: #fff;
+}
+
+.text p span {
+	display: inline-block;
+	text-indent: 30px;
+	font-weight: 900;
+}
+.text p  {
+	padding-bottom: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .text {
+    color: #000;
+  }
+}
+
+@media (max-width: 490px){
+	.text {
+		font-size: 30px;
+		font-weight: 500;
+		padding: 10px;
+		padding-top: 20px;
+	}
+}
