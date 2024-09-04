@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Андрей\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @prisma/client
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Андрей\AppData\Local\Microsoft\WindowsApps;C:\Users\Андрей\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Андрей\AppData\Local\GitHubDesktop\bin;C:\Users\Андрей\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\sorvigi\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "sorvigi",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.11.4",
+      "@emotion/styled": "^11.11.0",
+      "@prisma/client": "^5.11.0",
+      "next": "14.1.3",
+      "next-auth": "^4.24.7",
+      "openid-client": "^5.6.4",
+      "pg": "^8.11.4",
+      "react": "^18",
+      "react-alice-carousel": "^2.8.0",
+      "react-dom": "^18",
+      "react-icons": "^5.0.1",
+      "react-responsive-carousel": "^3.2.23"
+    },
+    "devDependencies": {
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "prisma": "^5.11.0",
+      "typescript": "^5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

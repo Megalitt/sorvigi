@@ -1,0 +1,27 @@
+npx prisma init 
+npm i pg
+npx yarn-upgrade-all
+yarn add @prisma/client
+npx prisma migrate reset
+
+npx prisma generate // генерирует клиента Prisma на основе схемы 
+
+npx prisma db pull // генерация на основе существующей модели БД
+
+npx prisma db push
+
+npx prisma seed // выполняет скрипт для наполнения БД начальными (фиктивными) данными
+
+npx prisma migrate reset // мягкий сброс
+
+npx prisma migrate dev
+
+npx prisma migrate deploy //  выполняет производственную миграцию
+
+// fonts
+caveat
+inter
+lobster
+pacifico
+allura
+neucha
